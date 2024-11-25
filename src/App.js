@@ -2,6 +2,7 @@ import './App.css';
 import { ClickHandler } from './components/clickHandler';
 // import { Greet } from './components/greet';
 import { Message } from './components/message';
+import { ParentComponent } from './components/ParentComponent';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Greet name='Vishwaz' heroName='WonderWoman' >
         <p>This is Children Props</p>
       </Greet> */}
-      <Message />
-      <ClickHandler />
+      {/* <Message />
+      <ClickHandler /> */}
+      <ParentComponent />
     </div>
   )
 }
