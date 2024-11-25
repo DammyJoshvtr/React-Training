@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { ClickHandler } from './components/clickHandler';
+// import { Greet } from './components/greet';
+import { Message } from './components/message';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Greet name='Druce' heroName='Batman' />
+      <Greet name='Clark' heroName='Ironman' />
+      <Greet name='Diana' heroName='Spiderman' >
+        <button>Action</button>
+      </Greet>
+      <Greet name='Vishwaz' heroName='WonderWoman' >
+        <p>This is Children Props</p>
+      </Greet> */}
+      <Message />
+      <ClickHandler />
     </div>
-  );
+  )
 }
 
 export default App;
