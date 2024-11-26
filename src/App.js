@@ -9,6 +9,7 @@ import { Inline } from './components/inline';
 // import { Message } from './components/message';
 // import { ParentComponent } from './components/ParentComponent';
 // import { UserGreeting } from './components/UserGreeting';
+import { Form } from './components/form';
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
       {/* <UserGreeting />
       <NameList />
       < Stylesheet /> */}
-      <Inline />
+      {/* <Inline />
       <h1 className="error">Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      <Form />
     </div>
   )
 }
