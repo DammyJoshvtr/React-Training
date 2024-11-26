@@ -1,10 +1,14 @@
 import './App.css';
-import { ClickHandler } from './components/clickHandler';
-import { NameList } from './components/NameList';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+// import { ClickHandler } from './components/clickHandler';
+// import { NameList } from './components/NameList';
+// import { Stylesheet } from './components/Stylesheet';
+import { Inline } from './components/inline';
 // import { Greet } from './components/greet';
 // import { Message } from './components/message';
 // import { ParentComponent } from './components/ParentComponent';
-import { UserGreeting } from './components/UserGreeting';
+// import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   return (
@@ -20,8 +24,12 @@ function App() {
       {/* <Message />
       <ClickHandler /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting />
       <NameList />
+      < Stylesheet /> */}
+      <Inline />
+      <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1>
     </div>
   )
 }
