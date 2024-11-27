@@ -1,15 +1,17 @@
 import './App.css';
-import './appStyles.css'
-import styles from './appStyles.module.css'
+import { PostForm } from './components/PostForm';
+// import './appStyles.css'
+// import styles from './appStyles.module.css'
 // import { ClickHandler } from './components/clickHandler';
 // import { NameList } from './components/NameList';
 // import { Stylesheet } from './components/Stylesheet';
-import { Inline } from './components/inline';
+// import { Inline } from './components/inline';
 // import { Greet } from './components/greet';
 // import { Message } from './components/message';
 // import { ParentComponent } from './components/ParentComponent';
 // import { UserGreeting } from './components/UserGreeting';
-import { Form } from './components/form';
+// import { Form } from './components/form';
+import { PostList } from './components/PostList';
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <Inline />
       <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1> */}
-      <Form />
+      {/* <Form /> */}
+      <PostForm />
+      <PostList />
     </div>
   )
 }
