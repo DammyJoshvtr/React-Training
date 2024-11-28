@@ -10,7 +10,7 @@ import { PostForm } from './components/PostForm';
 // import { Message } from './components/message';
 // import { ParentComponent } from './components/ParentComponent';
 // import { UserGreeting } from './components/UserGreeting';
-// import { Form } from './components/form';
+import { Form } from './components/form';
 import { PostList } from './components/PostList';
 
 function App() {
@@ -33,9 +33,9 @@ function App() {
       {/* <Inline />
       <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1> */}
-      {/* <Form /> */}
-      <PostForm />
-      <PostList />
+      <Form />
+      {/* <PostForm />
+      <PostList /> */}
     </div>
   )
 }
